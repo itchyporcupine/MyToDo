@@ -1,0 +1,22 @@
+This is a very simple command line todo script. The original code came form github.com/Macha/Simple-Python-Todo. So far, all I've done is added command line parsing using argparse.
+
+Usage
+
+mytodo install		- Installs the required files
+mytodo add "task" 	- Adds "task" as a task on the default todo list. "task" should be in quotes.
+mytodo done id		- Marks the task with the specified ID number as done. Removes it from the default todo list.
+mytodo list		- Lists tasks in the default todo list.
+
+TODO
+
+ - Improve the main script - argument parsing, help information, etc
+ - Add support for multiple todo lists.
+ 	- Provide capability of copying and moving tasks from one list to another.
+ - Provide some kind of time information for each task.
+ - Provide capability of ordering tasks according to certain criteria. ie, priority, time on list, etc.
+ - Provide capability of converting a list to pdf format for printing.
+ - Formulate a proper plan rather than just shooting from the hip.
+
+Contact
+
+If, for some reason, you'd like to contact me, email me at itchyporcupine@gmail.com
